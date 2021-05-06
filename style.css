@@ -1,0 +1,33 @@
+.svg-map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.map-image .is-active path{
+    fill: #e9d044;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #ccb21f;
+    font-size: 20px;
+    transition: fill 0.4s; 
+}
+
+.map-list a.is-active{
+    color: rgb(133, 95, 13);
+    background-color:rgb(230, 191, 109);
+    padding: 10px;
+}
+
+#area-1, #area-2, #area-3, #area-4, #area-5, #area-6, #area-7, #area-8, #area-9, .island{
+    fill: rgb(163, 123, 12);
+    stroke: cornsilk;
+    stroke-width: 2px;
+}
